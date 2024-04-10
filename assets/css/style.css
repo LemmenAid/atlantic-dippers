@@ -18,8 +18,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-h1 {
-    font-family: 'Noto Serif', serif;
+#logo {
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+
 }
 
 
@@ -32,6 +34,11 @@ header {
     /* Nav bar scroll along */
     position: fixed;
     z-index: 99;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Main content */
