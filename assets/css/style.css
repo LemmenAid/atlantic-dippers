@@ -15,6 +15,11 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #212121;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
 }
 
 
