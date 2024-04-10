@@ -95,9 +95,43 @@ main {
 }
 
 /* Footer */
-footer {
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2e5557;
+    color: #212121;
+    padding: 20px;
 }
+
+.contact-section {
+    flex: 1;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+.social-media {
+    flex: 1;
+    text-align: right;
+}
+
+/* Style the social media icons */
+#social-networks i {
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+    flex-direction: row;
+    margin-left: 10px;
+    color: #212121;
+}
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
