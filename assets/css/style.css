@@ -1,3 +1,6 @@
+/* Google fonts import */.
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap')
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
