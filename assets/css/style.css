@@ -10,7 +10,6 @@
 
 
 /* General styles */
-
 body {
     min-height: 100vh;
     display: flex;
@@ -18,19 +17,7 @@ body {
     /* Generic project styles */
     color: #212121;
     font-family: 'Noto Sans', sans-serif;
-    font-size: medium;
 }
-
-/* General heading styles */
-h1,
-h2,
-h3 {
-    font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #212121;
-}
-
 
 /* Header */
 header {
@@ -38,6 +25,9 @@ header {
     width: 100%;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     /* Nav bar scroll along */
     position: fixed;
     z-index: 99;
@@ -48,6 +38,15 @@ header a {
     color: inherit;
 }
 
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #df650b;
+}
+
+
+/* Navigantion menu */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -62,7 +61,6 @@ header a {
     border-bottom: 1px solid #212121;
 }
 
-/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #85b1a8;
@@ -73,6 +71,20 @@ nav {
     display: none;
     top: 100%;
 }
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 
 /* Main content */
 main {
