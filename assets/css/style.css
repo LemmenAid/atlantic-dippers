@@ -1,5 +1,5 @@
-/* Google fonts import */.
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap')
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -22,15 +22,14 @@ body {
 /* Header */
 header {
     background-color: #85b1a8;
-    width: 100%;
     padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
     box-shadow: 0 3px 3px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    /* Nav bar scroll along */
-    position: fixed;
-    z-index: 99;
 }
 
 header a {
@@ -91,10 +90,46 @@ main {
     background-color: #c0c6c1;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 120px;
+    margin-top: 47px;
 }
 
 /* Footer */
 footer {
     background-color: #2e5557;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
 }
