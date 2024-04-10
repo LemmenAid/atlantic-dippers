@@ -42,7 +42,7 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #df650b;
+    color: #212121;
 }
 
 
@@ -91,6 +91,7 @@ main {
     background-color: #c0c6c1;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
