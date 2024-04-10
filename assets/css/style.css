@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
+
 /* General styles */
+
 body {
     min-height: 100vh;
     display: flex;
@@ -16,12 +18,17 @@ body {
     /* Generic project styles */
     color: #212121;
     font-family: 'Noto Sans', sans-serif;
+    font-size: medium;
 }
 
-#logo {
+/* General heading styles */
+h1,
+h2,
+h3 {
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
-
+    letter-spacing: 2px;
+    color: #212121;
 }
 
 
@@ -40,6 +47,21 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #212121;
+}
+
 
 /* Main content */
 main {
