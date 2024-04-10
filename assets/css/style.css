@@ -100,7 +100,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2e5557;
+    /*background-color: #2e5557;*/
     color: #212121;
     padding: 20px;
 }
@@ -120,15 +120,19 @@ main {
 }
 
 /* Style the social media icons */
-#social-networks i {
+#social-networks ul {
     text-align:center;
-    display: flex;
+    display: inline-block;
     justify-content: space-evenly;
     list-style-type: none;
 
     flex-direction: row;
     margin-left: 10px;
     color: #212121;
+}
+
+#social-networks li {
+    display: inline-block;
 }
 
 
