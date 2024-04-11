@@ -110,7 +110,7 @@ main {
     flex: 1;
 }
 
-.logo {
+.footer-logo {
     flex: 1;
     text-align: center;
 }
@@ -123,7 +123,7 @@ main {
 /* Style the contact section */
 .contact-section {
     margin-left: 10px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .contact-section a {
@@ -146,10 +146,21 @@ main {
 }
 
 /* Style the footer logo */
+.footer-logo {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.footer-logo span {
+    margin: 0;
+}
 
 /* Style the social media icons */
-#social-networks ul {
+#social-networks {
     text-align:center;
     display: inline-block;
     list-style-type: none;
@@ -161,8 +172,6 @@ main {
     display: inline-flex;
     justify-content: space-between;
     margin-right: 10px;
-    
-
 }
 
 
@@ -196,6 +205,8 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+
 
     /* Main content */
     main {
