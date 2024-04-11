@@ -120,18 +120,47 @@ main {
     text-align: right;
 }
 
+/* Style the contact section */
+.contact-section {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: currentColor;
+    letter-spacing: 1.5px;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+  }
+
+.contact-section p {
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.contact-section i {
+    padding-right: 3px;
+}
+
+/* Style the footer logo */
+
+
 /* Style the social media icons */
 #social-networks ul {
     text-align:center;
     display: inline-block;
-    justify-content: space-evenly;
     list-style-type: none;
     margin-left: 1.5rem;
     color: #212121;
 }
 
 #social-networks li {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 10px;
     
 
 }
