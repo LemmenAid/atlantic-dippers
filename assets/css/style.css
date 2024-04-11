@@ -127,10 +127,14 @@ main {
     list-style-type: none;
     margin-left: 10px;
     color: #212121;
+    text-decoration: none;
+    font-size: 200%;
 }
 
 #social-networks li {
     display: inline-block;
+    
+
 }
 
 
