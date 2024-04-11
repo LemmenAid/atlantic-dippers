@@ -100,7 +100,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2e5557;
+    background-color: #85b1a8;
     color: #212121;
     padding: 1rem;
     font-size: 0.8rem;
@@ -123,13 +123,15 @@ main {
 /* Style the contact section */
 .contact-section {
     margin-left: 10px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .contact-section a {
     text-decoration: none;
     color: currentColor;
     letter-spacing: 1.5px;
+    margin-top: 1px;
+    font-size: 0.7rem;
 }
 
 .contact-section a:hover {
@@ -153,6 +155,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    letter-spacing: 1.2px;
 }
 
 .footer-logo span {
@@ -166,16 +169,14 @@ main {
     list-style-type: none;
     margin-left: 1.5rem;
     color: #212121;
+    margin-right: 15px;
 }
 
-#social-networks li {
+.social-media li {
     display: inline-flex;
     justify-content: space-between;
     margin-right: 10px;
 }
-
-
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
