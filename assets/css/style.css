@@ -102,7 +102,8 @@ main {
     align-items: center;
     background-color: #2e5557;
     color: #212121;
-    padding: 20px;
+    padding: 1rem;
+    font-size: 0.8rem;
 }
 
 .contact-section {
@@ -125,10 +126,8 @@ main {
     display: inline-block;
     justify-content: space-evenly;
     list-style-type: none;
-    margin-left: 10px;
+    margin-left: 1.5rem;
     color: #212121;
-    text-decoration: none;
-    font-size: 200%;
 }
 
 #social-networks li {
