@@ -21,7 +21,8 @@ body {
 
 /* Header */
 header {
-    background-color: #85b1a8;
+    /* I used the grb color code here instead of #85b1a8, to make the background transparant*/
+    background-color: rgb(133, 177, 168, 0.5);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
