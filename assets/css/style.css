@@ -87,13 +87,19 @@ nav {
     font-size: 2rem;
 }
 
-
 /* Main content */
 main {
     background-color: #c0c6c1;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-matthew-9500557_edit.jpg") no-repeat center center/cover;
 }
 
 
