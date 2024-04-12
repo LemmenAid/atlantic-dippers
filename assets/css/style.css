@@ -96,6 +96,7 @@ main {
     margin-top: 47px;
 }
 
+
 /* Footer */
 .footer {
     display: flex;
@@ -105,28 +106,18 @@ main {
     background-color: #85b1a8;
     color: #212121;
     padding: 1rem;
-    font-size: 0.8rem;
-}
-
-/* Footer sections positioning */
-.contact-section {
-    flex: 1;
-}
-
-.footer-logo {
-    flex: 1;
-    text-align: center;
-}
-
-.social-media {
-    flex: 1;
-    text-align: right;
+    font-size: 0.7rem;
 }
 
 /* Style footer contact section */
 .contact-section {
-    margin-left: 10px;
-    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    font-size: 0.7rem;
 }
 
 .contact-section a {
@@ -134,7 +125,6 @@ main {
     color: currentColor;
     letter-spacing: 1.5px;
     margin-top: 1px;
-    font-size: 0.7rem;
 }
 
 .contact-section a:hover {
@@ -152,13 +142,16 @@ main {
 
 /* Style footer logo */
 .footer-logo {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
     letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .footer-logo span {
@@ -166,6 +159,10 @@ main {
 }
 
 /* Style Footer social media icons */
+.social-media {
+    flex: 1;
+}
+
 #social-networks {
     text-align: center;
     display: inline-block;
@@ -177,9 +174,9 @@ main {
 
 .social-media li {
     display: inline-flex;
-    justify-content: space-between;
-    margin-right: 10px;
+    margin-right: 5px;
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -229,25 +226,14 @@ main {
         font-size: 0.8rem;
     }
 
-    /* Footer sections positioning(768px and up) */
-    .contact-section {
-        flex: 1;
-    }
-
-    .footer-logo {
-        flex: 1;
-        text-align: center;
-    }
-
-    .social-media {
-        flex: 1;
-        text-align: right;
-    }
 
     /* Style footer contact section(768px and up) */
     .contact-section {
+        flex: 1;
         margin-left: 10px;
         font-size: 0.8rem;
+        padding-left: 5px;
+        align-items: start;
     }
 
     .contact-section a {
@@ -273,6 +259,8 @@ main {
 
     /* Style footer logo(768px and up) */
     .footer-logo {
+        flex: 1;
+        text-align: center;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 0.8rem;
@@ -287,6 +275,11 @@ main {
     }
 
     /* Style Footer social media icons(768px and up) */
+    .social-media {
+        flex: 1;
+        text-align: right;
+    }
+   
     #social-networks {
         text-align: center;
         display: inline-block;
