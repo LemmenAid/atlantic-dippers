@@ -23,14 +23,14 @@ body {
 header {
     /* I used the grb color code here instead of #85b1a8, to make the background transparant*/
     background-color: rgb(133, 177, 168, 0.7);
-    padding: 0 1rem;
+    padding: 0 1rem 5px 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -44,6 +44,9 @@ h1 {
     letter-spacing: 2px;
     color: #212121;
     font-size: 125%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-top: 5px;
 }
 
 
@@ -69,7 +72,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 3px 3px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -92,12 +95,10 @@ main {
     background-color: #c0c6c1;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
 }
 
 /* Hero section */
 #hero {
-    margin-top: -47px;
     height: 600px;
     width: 100%;
     background: url("../images/pexels-matthew-9500557_edit.jpg") no-repeat center center/cover;
