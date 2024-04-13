@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     /* I used the grb color code here instead of #85b1a8, to make the background transparant*/
-    background-color: rgb(133, 177, 168, 0.5);
+    background-color: rgb(133, 177, 168, 0.7);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -97,22 +97,37 @@ main {
 
 /* Hero section */
 #hero {
+    margin-top: -47px;
     height: 600px;
     width: 100%;
     background: url("../images/pexels-matthew-9500557_edit.jpg") no-repeat center center/cover;
 }
 
- .hero-title {
+.hero-title {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex: 1;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 0.8rem;
-    letter-spacing: 1.2px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    color: #CC5500;
+    margin-bottom: 5px;
     text-align: center;
+    padding-top: 220px;
+}
+
+#hero p {
+    display: flex;
+    flex-direction: column;
+    text-transform: none;
+    font-weight: 300;
+    font-size: 0.7rem;
+    letter-spacing: 1.2px;
+    color: #FAF9F6;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
