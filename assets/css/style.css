@@ -102,6 +102,19 @@ main {
     background: url("../images/pexels-matthew-9500557_edit.jpg") no-repeat center center/cover;
 }
 
+ .hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 /* Footer */
 .footer {
