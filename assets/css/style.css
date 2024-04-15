@@ -135,15 +135,29 @@ main {
 
 /* Info buttons section home page */
 
+#buttons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 440px;
+}
+
 .buttons {
-    padding: 6px 6px;
+    width: 160px;
+    height: 85px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
     border: 1px outset buttonborder;
     border-radius: 3px;
-    color: #212121;
+    color: #ffffff;
     background-color: #CC5500;
     text-decoration: none;
 }
-
 
 /* Footer */
 .footer {
@@ -268,7 +282,6 @@ main {
         padding-top: 300px;
     }
 
-
     #hero p {
         display: flex;
         flex-direction: column;
@@ -280,6 +293,14 @@ main {
         padding-top: 40px;
         padding-left: 90px;
         padding-right: 90px;
+    }
+
+    #buttons-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 250px;
     }
 
     /* Footer(768px and up) */
