@@ -133,6 +133,16 @@ main {
     padding-right: 30px;
 }
 
+/* Info buttons section home page */
+
+.buttons {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: #212121;
+    background-color: #CC5500;
+    text-decoration: none;
+}
 
 
 /* Footer */
