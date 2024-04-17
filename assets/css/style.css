@@ -185,20 +185,20 @@ main {
 /* About Us Page */
 #about-page {
     display: flex;
-    flex-direction: column;
-}
+} 
 
 .about-content {
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding-top: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }
 
 .about-content h1 {
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 30px;
     letter-spacing: 1.3px;
     text-transform: uppercase;
@@ -214,11 +214,12 @@ main {
 .about-image {
     display: flex;
     flex-direction: column;
+    flex: 1;
     background-image: url('../images/pexels-billow-11296959_edit3.jpg');
     background-size: cover;
     background-position: center;
     background-color: #85b1a8;
-}
+} 
 
 /* Footer */
 .footer {
@@ -398,7 +399,7 @@ main {
         background-position: center;
         background-color: #85b1a8;
         padding-right: 100px;
-    }
+    } 
 
     /* Footer(768px and up) */
     .footer {
@@ -491,6 +492,7 @@ main {
     /* About us page (992px and up) */
     #about-page {
         display: flex;
+        height: 100%;
     }
 
     .about-content {
