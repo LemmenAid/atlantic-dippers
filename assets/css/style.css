@@ -182,6 +182,27 @@ main {
     text-decoration: none;
 }
 
+/* About Us Page */
+#about-page {
+    display: flex;
+    height: 900px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-top: 100px;
+    padding-left: 30px;
+  }
+
+  .about-image {
+    flex: 1;
+    background-image: url('../images/pexels-billow-11296959_edit2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #85b1a8;
+    padding-right: 30px;
+  }
+
 /* Footer */
 .footer {
     display: flex;
