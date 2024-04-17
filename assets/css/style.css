@@ -485,40 +485,40 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #212121;
     }
-}
 
-/* About us page (992px and up) */
-#about-page {
-    display: flex;
-}
+    /* About us page (992px and up) */
+    #about-page {
+        display: flex;
+    }
 
-.about-content {
-    flex: 1;
-    padding-top: 150px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 40px;
-}
+    .about-content {
+        flex: 1;
+        padding-top: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 40px;
+    }
 
-.about-content h1 {
-    font-size: 20px;
-    padding-bottom: 30px;
-    letter-spacing: 1.3px;
-    text-transform: uppercase;
-}
+    .about-content h1 {
+        font-size: 20px;
+        padding-bottom: 30px;
+        letter-spacing: 1.3px;
+        text-transform: uppercase;
+    }
 
-.about-content p {
-    font-size: 13px;
-    letter-spacing: 1.2px;
-    line-height: 25px;
-    padding-bottom: 20px;
-}
+    .about-content p {
+        font-size: 13px;
+        letter-spacing: 1.2px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
 
-.about-image {
-    flex: 1;
-    background-image: url('../images/pexels-billow-11296959_edit3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: #85b1a8;
-    padding-right: 300px;
+    .about-image {
+        flex: 1;
+        background-image: url('../images/pexels-billow-11296959_edit3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-color: #85b1a8;
+        padding-right: 200px;
+    }
 }
