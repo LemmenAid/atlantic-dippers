@@ -229,7 +229,7 @@ main {
 }
 
 .meetup-content {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
@@ -252,7 +252,7 @@ main {
 }
 
 .meetup-image {
-    background-image: url('../images/pexels-billow-11296959_edit3.jpg');
+    background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
     background-size: cover;
     background-position: center;
     background-color: #85b1a8;
@@ -260,7 +260,8 @@ main {
 }
 
 .google-map {
-    padding-bottom: 50%; /* 16:9 aspect ratio */
+    padding-bottom: 50%;
+    /* 16:9 aspect ratio */
     margin-top: 50px;
     position: relative;
     height: 0;
@@ -271,7 +272,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 90%;
     height: 100%;
 }
 
@@ -429,21 +430,21 @@ main {
     .about-content {
         order: 1;
         flex: 1;
-        padding-top: 150px;
+        padding-top: 120px;
         padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 40px;
     }
 
     .about-content h1 {
-        font-size: 20px;
+        font-size: 18px;
         padding-bottom: 30px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
     }
 
     .about-content p {
-        font-size: 13px;
+        font-size: 12px;
         letter-spacing: 1.2px;
         line-height: 25px;
         padding-bottom: 20px;
@@ -458,6 +459,67 @@ main {
         background-color: #85b1a8;
         padding-right: 100px;
     }
+
+    /* Meetup Page (768px and up) */
+    #meetup-page {
+        display: flex;
+        flex: 1;
+        /* Line up the children */
+        flex-direction: row;
+
+    }
+
+    .meetup-content {
+        padding-top: 120px;
+        padding-left: 50px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        order: 2;
+        flex: 1;
+    }
+
+    .meetup-content h1 {
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        letter-spacing: 1.3px;
+        text-transform: uppercase;
+    }
+
+    .meetup-content p {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+
+    .meetup-image {
+        background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-color: #85b1a8;
+        order: 1;
+        flex: 1;
+        padding-left: 100px;
+    }
+
+    .google-map {
+        padding-bottom: 50%;
+        /* 16:9 aspect ratio */
+        margin-top: 50px;
+        position: relative;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 100%;
+    }
+
 
     /* Footer(768px and up) */
     .footer {
