@@ -186,6 +186,7 @@ main {
 #about-page {
     display: flex;
     flex: 1;
+    flex-direction: column; /* stack the children */
 }
 
 .about-content {
@@ -365,7 +366,7 @@ main {
     /* About us page (768px and up) */
     #about-page {
         display: flex;
-        flex: 2;
+        flex-direction: row; /* Line up the children */
     }
 
     .about-content {
