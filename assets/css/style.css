@@ -219,6 +219,44 @@ main {
     order: 1;
 }
 
+/* Meetup Page */
+#meetup-page {
+    display: flex;
+    flex: 1;
+    flex-direction: column; /* stack the children */
+}
+
+.meetup-content {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    order: 1;
+}
+
+.meetup-content h1 {
+    font-size: 18px;
+    padding-bottom: 30px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.meetup-content p {
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.meetup-image {
+    background-image: url('../images/pexels-billow-11296959_edit3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #85b1a8;
+    order: 2;
+}
+
+
 /* Footer */
 .footer {
     display: flex;
