@@ -224,8 +224,9 @@ main {
 #meetup-page {
     display: flex;
     flex: 1;
-    flex-direction: column;
     /* stack the children */
+    flex-direction: column;
+    
 }
 
 .meetup-content {
@@ -252,7 +253,7 @@ main {
 }
 
 .meetup-image {
-    background-image: url('../images/pexels-flo-maderebner-1249545.jpg');
+    background-image: url('../images/ripple\ for\ a.d.\ site.jpg');
     background-size: cover;
     background-position: center;
     background-color: #85b1a8;
@@ -463,13 +464,12 @@ main {
         display: flex;
         /* Line up the children */
         flex-direction: row;
-
     }
 
     .meetup-content {
         order: 1;
         flex: 1;
-        padding-top: 120px;
+        padding-top: 80px;
         padding-left: 50px;
         padding-right: 20px;
         padding-bottom: 40px;
@@ -477,6 +477,7 @@ main {
 
     .meetup-content h1 {
         font-size: 18px;
+        padding-top: 100px;
         padding-bottom: 20px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
@@ -489,10 +490,11 @@ main {
         padding-bottom: 15px;
     }
 
+
     .meetup-image {
         order: 2;
         flex: 1;
-        background-image: url('../images/pexels-flo-maderebner-1249545.jpg');
+        background-image: url('../images/ripple\ for\ a.d.\ site.jpg');
         background-size: cover;
         background-position: center;
         background-color: #85b1a8;
