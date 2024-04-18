@@ -252,7 +252,7 @@ main {
 }
 
 .meetup-image {
-    background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
+    background-image: url('../images/pexels-flo-maderebner-1249545.jpg');
     background-size: cover;
     background-position: center;
     background-color: #85b1a8;
@@ -261,7 +261,6 @@ main {
 
 .google-map {
     padding-bottom: 50%;
-    /* 16:9 aspect ratio */
     margin-top: 50px;
     position: relative;
     height: 0;
@@ -270,8 +269,6 @@ main {
 
 .google-map iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 90%;
     height: 100%;
 }
@@ -423,8 +420,9 @@ main {
     /* About us page (768px and up) */
     #about-page {
         display: flex;
-        flex-direction: row;
         /* Line up the children */
+        flex-direction: row;
+        
     }
 
     .about-content {
@@ -463,24 +461,22 @@ main {
     /* Meetup Page (768px and up) */
     #meetup-page {
         display: flex;
-        flex: 1;
         /* Line up the children */
         flex-direction: row;
 
     }
 
     .meetup-content {
+        order: 1;
+        flex: 1;
         padding-top: 120px;
         padding-left: 50px;
         padding-right: 20px;
         padding-bottom: 40px;
-        order: 2;
-        flex: 1;
     }
 
     .meetup-content h1 {
         font-size: 18px;
-        padding-top: 15px;
         padding-bottom: 20px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
@@ -489,23 +485,22 @@ main {
     .meetup-content p {
         font-size: 12px;
         letter-spacing: 1.2px;
-        line-height: 15px;
+        line-height: 10px;
         padding-bottom: 15px;
     }
 
     .meetup-image {
-        background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
+        order: 2;
+        flex: 1;
+        background-image: url('../images/pexels-flo-maderebner-1249545.jpg');
         background-size: cover;
         background-position: center;
         background-color: #85b1a8;
-        order: 1;
-        flex: 1;
-        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .google-map {
         padding-bottom: 50%;
-        /* 16:9 aspect ratio */
         margin-top: 50px;
         position: relative;
         height: 0;
@@ -514,10 +509,8 @@ main {
 
     .google-map iframe {
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 90%;
-        height: 100%;
+        width: 60%;
+        height: 70%;
     }
 
 
