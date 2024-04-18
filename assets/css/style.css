@@ -186,7 +186,8 @@ main {
 #about-page {
     display: flex;
     flex: 1;
-    flex-direction: column; /* stack the children */
+    flex-direction: column;
+    /* stack the children */
 }
 
 .about-content {
@@ -223,11 +224,12 @@ main {
 #meetup-page {
     display: flex;
     flex: 1;
-    flex-direction: column; /* stack the children */
+    flex-direction: column;
+    /* stack the children */
 }
 
 .meetup-content {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
@@ -236,7 +238,8 @@ main {
 
 .meetup-content h1 {
     font-size: 18px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     letter-spacing: 1.3px;
     text-transform: uppercase;
 }
@@ -244,8 +247,8 @@ main {
 .meetup-content p {
     font-size: 13px;
     letter-spacing: 1.2px;
-    line-height: 25px;
-    padding-bottom: 20px;
+    line-height: 15px;
+    padding-bottom: 15px;
 }
 
 .meetup-image {
@@ -256,6 +259,21 @@ main {
     order: 2;
 }
 
+.google-map {
+    padding-bottom: 50%; /* 16:9 aspect ratio */
+    margin-top: 50px;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+}
 
 /* Footer */
 .footer {
@@ -404,7 +422,8 @@ main {
     /* About us page (768px and up) */
     #about-page {
         display: flex;
-        flex-direction: row; /* Line up the children */
+        flex-direction: row;
+        /* Line up the children */
     }
 
     .about-content {
