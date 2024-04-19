@@ -294,9 +294,7 @@ main {
     margin-bottom: 40px;
     font-size: 14px;
     letter-spacing: 1.1px;
-    
 }
-
 
 #signup-form>h2 {
     color: #fafafa;
@@ -305,7 +303,6 @@ main {
     font-size: 24px;
     letter-spacing: 1.5px;
 }
-
 
 .text-input {
     background: transparent;
@@ -587,8 +584,8 @@ main {
     #signup-form {
         max-width: 400px;
         position: absolute;
-        left: 10%;
         top: 140px;
+        left: 10%;
         margin-top: 0;
         margin-bottom: 0;
     }
