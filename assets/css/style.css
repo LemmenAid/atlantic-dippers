@@ -113,9 +113,9 @@ main {
     flex-direction: column;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 1.5px;
-    color: #CC5500;
+    color: #ee7c2b;
     margin-bottom: 5px;
     text-align: center;
     padding-top: 210px;
@@ -145,7 +145,11 @@ main {
 .action-button {
     width: 150px;
     height: 40px;
-    border-radius: 15px;
+    border-style: solid;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
     line-height: 39px;
     border: 1px outset buttonborder;
     text-align: center;
@@ -156,6 +160,7 @@ main {
     letter-spacing: 1.3px;
     color: #FAF9F6;
     background-color: #CC5500;
+    border-color: #CC5500;
 }
 
 /* Info buttons section home page */
@@ -180,7 +185,7 @@ main {
     border: 1px outset buttonborder;
     border-radius: 9px;
     color: #212121;
-    background-color:#ec8e4b;
+    background-color: #ee7c2b;
     text-decoration: none;
 }
 
@@ -201,6 +206,7 @@ main {
 }
 
 .about-content h1 {
+    color: #CC5500;
     font-size: 18px;
     padding-bottom: 30px;
     letter-spacing: 1.3px;
@@ -233,13 +239,14 @@ main {
 
 .meetup-content {
     padding-top: 80px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 20px;
     padding-bottom: 30px;
     order: 1;
 }
 
 .meetup-content h1 {
+    color: #CC5500;
     font-size: 18px;
     padding-top: 15px;
     padding-bottom: 20px;
@@ -531,15 +538,20 @@ main {
     .meetup-content {
         order: 1;
         flex: 1;
-        padding-top: 80px;
-        padding-left: 50px;
-        padding-right: 20px;
-        padding-bottom: 40px;
-    }
+        padding: 20px;
+        margin-top: 110px;
+        margin-bottom: 30px; 
+        margin-left: 30px;
+        margin-right: 30px;
+        border-style: solid;
+        border-color: #54a094;
+        border-radius: 5px;
+        border-width: 2px;
+        }
 
     .meetup-content h1 {
         font-size: 18px;
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 20px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
@@ -571,8 +583,8 @@ main {
 
     .google-map iframe {
         position: absolute;
-        width: 60%;
-        height: 70%;
+        width: 70%;
+        height: 80%;
     }
 
     /* Signup Page (768px and up) */
