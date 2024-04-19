@@ -145,8 +145,8 @@ main {
 .action-button {
     padding: 15px 25px;
     border-style: solid;
-    border-radius: 100px;
     border: 1px outset buttonborder;
+    border-radius: 100px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -482,6 +482,7 @@ main {
 
     .action-button:hover {
         background-color: #ee7c2b;
+        border-color: #ee7c2b;
     }
 
     #buttons-section {
@@ -494,6 +495,7 @@ main {
 
     .buttons:hover {
         background-color: #CC5500;
+        border-color: #CC5500;
     }
 
     /* About us page (768px and up) */
@@ -621,6 +623,7 @@ main {
 
     .join-button:hover {
         background-color: #CC5500;
+        border-color: #CC5500;
     }
 
     /* Footer(768px and up) */
