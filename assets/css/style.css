@@ -118,7 +118,7 @@ main {
     color: #ee7c2b;
     margin-bottom: 5px;
     text-align: center;
-    padding-top: 210px;
+    padding-top: 180px;
 }
 
 #hero p {
@@ -165,18 +165,20 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 440px;
+    height: 380px;
 }
 
 .buttons {
-    padding: 30px 30px;
+    width: 160px;
+    height: 70px;
+    line-height: 70px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1.3px;
     border: 1px outset buttonborder;
-    border-radius: 30px;
+    border-radius: 20px;
     color: #212121;
     background-color: #ee7c2b;
     border-color: #ee7c2b;
