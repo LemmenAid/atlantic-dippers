@@ -143,14 +143,9 @@ main {
 }
 
 .action-button {
-    width: 150px;
-    height: 40px;
+    padding: 15px 25px;
     border-style: solid;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    line-height: 39px;
+    border-radius: 100px;
     border: 1px outset buttonborder;
     text-align: center;
     text-transform: uppercase;
@@ -207,7 +202,7 @@ main {
 
 .about-content h1 {
     color: #CC5500;
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 30px;
     letter-spacing: 1.3px;
     text-transform: uppercase;
@@ -335,12 +330,18 @@ main {
 
 .join-button {
     margin-top: 20px;
-    border-radius: 8px;
+    border-style: solid;
+    border: 1px outset buttonborder;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
     padding: 15px 25px;
     font-size: 100%;
-    background-color: #CC5500;
+    background-color: #ee7c2b;
+    border-color: #ee7c2b;
     color: #fafafa;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.3px;
 }
 
 /* Footer */
@@ -479,12 +480,20 @@ main {
         padding-right: 90px;
     }
 
+    .action-button:hover {
+        background-color: #ee7c2b;
+    }
+
     #buttons-section {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         height: 250px;
+    }
+
+    .buttons:hover {
+        background-color: #CC5500;
     }
 
     /* About us page (768px and up) */
@@ -606,9 +615,12 @@ main {
         border-color: #CC5500;
     }
 
+    .text-input-experience:hover {
+        border-color: #CC5500;
+    }
+
     .join-button:hover {
-        background-color: #fafafa;
-        color: #85b1a8;
+        background-color: #CC5500;
     }
 
     /* Footer(768px and up) */
