@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     /* I used the grb color code here instead of #85b1a8, to make the background transparant*/
-    background-color: rgb(133, 177, 168, 0.7);
+    background-color: rgb(94, 175, 161, 0.7);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -68,7 +68,7 @@ header a {
 nav {
     position: absolute;
     /* I used the grb color code here instead of #85b1a8, to make the background transparant*/
-    background-color: rgb(133, 177, 168, 0.7);
+    background-color: rgb(94, 175, 161, 0.7);
     color: #CC5500;
     font-weight: 600;
     width: 100%;
