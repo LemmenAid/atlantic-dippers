@@ -169,18 +169,17 @@ main {
 }
 
 .buttons {
-    width: 160px;
-    height: 85px;
-    line-height: 80px;
+    padding: 30px 30px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1.3px;
     border: 1px outset buttonborder;
-    border-radius: 9px;
+    border-radius: 30px;
     color: #212121;
     background-color: #ee7c2b;
+    border-color: #ee7c2b;
     text-decoration: none;
 }
 
