@@ -555,10 +555,10 @@ main {
         margin-bottom: 30px; 
         margin-left: 30px;
         margin-right: 30px;
-        border-style: solid;
+        /*border-style: solid;
         border-color: #54a094;
         border-radius: 5px;
-        border-width: 2px;
+        border-width: 2px;*/
         }
 
     .meetup-content h1 {
@@ -582,7 +582,7 @@ main {
         background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
         background-size: cover;
         background-position: center;
-        padding-right: 100px;
+        padding-right: 120px;
     }
 
     .google-map {
