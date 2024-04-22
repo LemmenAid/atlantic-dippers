@@ -153,9 +153,9 @@ main {
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1.3px;
-    color: #FAF9F6;
-    background-color: #CC5500;
-    border-color: #CC5500;
+    color: #212121;
+    background-color: #ee7c2b;
+    border-color: #ee7c2b;
 }
 
 /* Info buttons section home page */
@@ -341,7 +341,7 @@ main {
     font-size: 100%;
     background-color: #ee7c2b;
     border-color: #ee7c2b;
-    color: #fafafa;
+    color: #212121;
     letter-spacing: 1.3px;
 }
 
@@ -482,8 +482,8 @@ main {
     }
 
     .action-button:hover {
-        background-color: #ee7c2b;
-        border-color: #ee7c2b;
+        background-color: #CC5500;
+        border-color: #CC5500;
     }
 
     #buttons-section {
