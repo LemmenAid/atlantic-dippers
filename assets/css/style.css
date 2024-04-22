@@ -177,12 +177,12 @@ main {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: 1.3px;
-    border: 1px outset buttonborder;
-    border-radius: 20px;
+    letter-spacing: 1.4px;
+    /*border: 1px outset buttonborder;*/
+    border-radius: 100px;
     color: #212121;
-    background-color: #54a094;
-    border-color: #54a094;
+    background-color: #3fbaa6;
+    border-color: #3fbaa6;
     text-decoration: none;
 }
 
