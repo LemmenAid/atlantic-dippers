@@ -258,6 +258,10 @@ main {
     padding-bottom: 5px;
 }
 
+.safety {
+    font-style: italic;
+}
+
 .meetup-image {
     background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
     background-size: cover;
