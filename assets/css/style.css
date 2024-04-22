@@ -94,7 +94,8 @@ nav {
 
 /* Main content */
 main {
-    background-color: #68b9ac;
+    /*background-color: #68b9ac;*/
+    background-color: #83d5c8;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     display: flex;
