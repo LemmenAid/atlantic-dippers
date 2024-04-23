@@ -41,7 +41,7 @@ header a {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #212121;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     padding-top: 5px;
 }
@@ -449,7 +449,7 @@ main {
     #menu {
         display: flex;
         padding-top: 20px;
-        font-size: 80%;
+        font-size: 95%;
     }
 
     #menu>li {
@@ -461,7 +461,7 @@ main {
     }
 
     #logo {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 75px;
         margin: 0 0.5rem;
     }
