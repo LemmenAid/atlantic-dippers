@@ -217,14 +217,15 @@ main {
     padding-bottom: 20px;
 }
 
+/* comment this out, because no image on mobile screens:
 .about-image {
-    /* background-image: url('../images/pexels-billow-11296959_edit3.jpg'); */
-    background-image: url('../images/seaweed\ float\ for\ a.d.jpg');
+    background-image: url('../images/seaweed\ float\ for\ a.d.jpg'); 
     background-size: cover;
     background-position: center;
     background-color: #68b9ac;
     order: 1;
 }
+*/
 
 /* Meetup Page */
 #meetup-page {
@@ -263,6 +264,7 @@ main {
     font-style: italic;
 }
 
+/* comment this out, because no image on mobile screens:
 .meetup-image {
     background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
     background-size: cover;
@@ -270,6 +272,7 @@ main {
     background-color: #68b9ac;
     order: 2;
 }
+*/
 
 .google-map {
     padding-bottom: 50%;
@@ -541,7 +544,8 @@ main {
     .about-image {
         order: 2;
         flex: 1;
-        background-image: url('../images/pexels-billow-11296959_edit3.jpg');
+        /* background-image: url('../images/pexels-billow-11296959_edit3.jpg'); */
+        background-image: url('../images/seaweed\ float\ for\ a.d.jpg');
         background-size: cover;
         background-position: center;
         background-color: #68b9ac;
@@ -750,7 +754,8 @@ main {
 
     .about-image {
         flex: 1;
-        background-image: url('../images/pexels-billow-11296959_edit3.jpg');
+        /* background-image: url('../images/pexels-billow-11296959_edit3.jpg'); */
+        background-image: url('../images/seaweed\ float\ for\ a.d.jpg');
         background-size: cover;
         background-position: center;
         background-color: #68b9ac;
