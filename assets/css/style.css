@@ -124,9 +124,9 @@ main {
     flex-direction: column;
     text-transform: none;
     font-weight: 400;
-    font-size: 0.8rem;
-    letter-spacing: 1.2px;
-    color: #FAF9F6;
+    font-size: 0.9rem;
+    letter-spacing: 1.4px;
+    color: #fafafa;
     text-align: center;
     padding-top: 30px;
     padding-left: 30px;
@@ -478,7 +478,7 @@ main {
         flex-direction: column;
         text-transform: none;
         font-size: 1rem;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.4px;
         color: #fafafa;
         text-align: center;
         padding-top: 40px;
