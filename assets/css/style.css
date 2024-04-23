@@ -241,8 +241,8 @@ main {
 }
 
 .meetup-content h1 {
-    color: #CC5500;
-    font-size: 18px;
+    color: #212121;
+    font-size: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
     letter-spacing: 1.3px;
@@ -250,7 +250,7 @@ main {
 }
 
 .meetup-content p {
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1.2px;
     line-height: 20px;
     padding-bottom: 5px;
@@ -531,7 +531,7 @@ main {
     }
 
     .about-content p {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1.2px;
         line-height: 25px;
         padding-bottom: 20px;
@@ -565,7 +565,7 @@ main {
     }
 
     .meetup-content h1 {
-        font-size: 18px;
+        font-size: 24px;
         padding-top: 10px;
         padding-bottom: 10px;
         letter-spacing: 1.3px;
@@ -573,7 +573,7 @@ main {
     }
 
     .meetup-content p {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1.2px;
         line-height: 20px;
         padding-bottom: 5px;
