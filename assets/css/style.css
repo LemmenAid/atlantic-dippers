@@ -476,6 +476,11 @@ main {
         margin: 0 0.5rem;
     }
 
+    #logo:hover {
+        color: #ff8833;
+    }
+
+
     /* Main content(768px and up) */
 
     /* Hero section */
