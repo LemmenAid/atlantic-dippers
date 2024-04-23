@@ -524,14 +524,14 @@ main {
     }
 
     .about-content h1 {
-        font-size: 24px;
+        font-size: 22px;
         padding-bottom: 30px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
     }
 
     .about-content p {
-        font-size: 13px;
+        font-size: 14px;
         letter-spacing: 1.2px;
         line-height: 25px;
         padding-bottom: 20px;
@@ -565,7 +565,7 @@ main {
     }
 
     .meetup-content h1 {
-        font-size: 24px;
+        font-size: 22px;
         padding-top: 10px;
         padding-bottom: 10px;
         letter-spacing: 1.3px;
@@ -573,7 +573,7 @@ main {
     }
 
     .meetup-content p {
-        font-size: 13px;
+        font-size: 14px;
         letter-spacing: 1.2px;
         line-height: 20px;
         padding-bottom: 5px;
@@ -731,14 +731,14 @@ main {
     }
 
     .about-content h1 {
-        font-size: 24px;
+        font-size: 22px;
         padding-bottom: 30px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
     }
 
     .about-content p {
-        font-size: 13px;
+        font-size: 14px;
         letter-spacing: 1.2px;
         line-height: 25px;
         padding-bottom: 20px;
