@@ -412,6 +412,11 @@ main {
     margin: 0;
 }
 
+.footer-logo a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 /* Style Footer social media icons */
 .social-media {
     flex: 1;
@@ -429,6 +434,10 @@ main {
 .social-media li {
     display: inline-flex;
     margin-right: 5px;
+}
+
+.social-media a {
+    color: #212121;
 }
 
 
@@ -660,7 +669,7 @@ main {
     }
 
     .contact-section a:hover {
-        text-decoration: underline;
+        color: #ff8833;
     }
 
     .contact-section p {
@@ -689,6 +698,10 @@ main {
         margin: 0;
     }
 
+    .footer-logo a:hover {
+        color: #ff8833;
+    }
+
     /* Style Footer social media icons(768px and up) */
     .social-media {
         flex: 1;
@@ -708,6 +721,10 @@ main {
         display: inline-flex;
         justify-content: space-between;
         margin-right: 10px;
+    }
+
+    .social-media a:hover {
+        color: #ff8833;
     }
 }
 
