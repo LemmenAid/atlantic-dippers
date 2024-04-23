@@ -477,7 +477,7 @@ main {
         display: flex;
         flex-direction: column;
         text-transform: none;
-        font-size: 0.9rem;
+        font-size: 1rem;
         letter-spacing: 1.2px;
         color: #fafafa;
         text-align: center;
