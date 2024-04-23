@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(84, 160, 148, 0.7);
+    background-color: rgb(109, 209, 193, 0.7);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
