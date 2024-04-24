@@ -258,6 +258,7 @@ main {
 
 .safety {
     font-style: italic;
+    margin-top: 40px;
 }
 
 /* comment this out, because no image on mobile screens:
