@@ -193,7 +193,7 @@ Links to Pexels images:
 * Testing validity of HTML with [Validator](https://validator.w3.org/) 
 * Testing validity of CSS with [CSS Validator](https://validator.w3.org/)
 * Checking responsive nature with [UI](https://ui.dev/amiresponsive?/)
-* Testing performance andaccessibility with DEV Tools - Lighthouse
+* Testing performance and accessibility with DEV Tools - Lighthouse
 
 ***
 
@@ -201,18 +201,19 @@ Links to Pexels images:
 
 ### Browser Compatibility
 
-The website has been tested for functionality by myself and several of my friends.
-It has been tested on an iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Samsung Galaxy S20 / MacBook Air / MacBook Pro / HP laptop.
-The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
-All links/buttons have been tested for functionality.
-Hover over effects have been tested.
-Signup Form has been tested for functionality and feedback.
-Social media Icons have been tested.
+The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
+
+* This site has been tested on an iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Samsung Galaxy S20 / MacBook Air / MacBook Pro / HP laptop.
+* The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
+* All links/buttons have been tested for functionality.
+* Hover over effects have been tested.
+* Signup Form has been tested for functionality and feedback.
+* Social media Icons have been tested.
 
 ### Responsivness
 
-The website has been tested on different screensizes and it's responsive on all screens from mobile phones to desktops.
-Chrome DEV Tools have been used to check the responsivness.
+* The website has been tested on different screensizes and it's responsive on all screens from mobile phones to desktops.
+* Chrome DEV Tools have been used to check the responsivness.
 
 
 ### Validator Testing
@@ -223,22 +224,23 @@ The [W3C](https://validator.w3.org/) Markup Validator was used to validate every
 There was one error returned about an inline style attribute:
 ![alt text](assets/README-files/html-error.png)
 
-I removed the inline style attribute and soved it with CSS. After that no errors were returned for any of the pages.
+I removed the inline style attribute and solved it with CSS. After that no errors were returned for any of the pages.
 ![alt text](assets/README-files/html-pass.png)
 
 #### CSS
-The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that there were no syntax errors made in the project.
+The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project.
 
-Two value errors were returned:
+Two value errors were returned:<br>
 ![alt text](assets/README-files/css-errors.png)
 
-After fixing that, no errors were returned, but there were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.
+After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
+There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.
 ![alt text](assets/README-files/css-warnings.png)
 ![alt text](assets/README-files/css-pass.png)
 
 ### Lighthouse
 
-After validator testing I have used Chrome’s Lighthouse developer tool to check all pages. 
+After validator testing I have used Chrome’s Lighthouse developer tool to check all pages for performance and accessibility. 
 
 #### Landing Page
 
