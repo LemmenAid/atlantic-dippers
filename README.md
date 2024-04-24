@@ -30,7 +30,7 @@ To unite cold water dippers in the area of Renvyle, Connemara. Cold water dippin
 * [Testing](#testing)
 * [Known Bugs](#known-bugs)
 * [Deployment](#deployment)
-* [Credits](#credit)
+* [Credits](#credits)
 
 ***
 
