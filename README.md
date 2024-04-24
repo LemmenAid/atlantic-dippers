@@ -192,7 +192,7 @@ Links to Pexels images:
 ### Testing
 * Testing validity of HTML with [Validator](https://validator.w3.org/) 
 * Testing validity of CSS with [CSS Validator](https://validator.w3.org/)
-* Checking responsive nature with [UI](https://ui.dev/amiresponsive?\)
+* Checking responsive nature with [UI](https://ui.dev/amiresponsive?/)
 * Testing performance andaccessibility with DEV Tools - Lighthouse
 
 ***
