@@ -261,9 +261,9 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 
 ## Known Bugs
 
-During testing for Accessibility I realised that the background colour had to be changed for better readability. I changed it to a lighter hue and that was an improvement.
-During testing, I got the feedback that some of my font sizes were too small. I increased the font size in a lot of places, like the header, footer but also main content.
-During testing I changed the colour from orange to black for the titles in my main content, this made it a lot more readable.
+* During testing for Accessibility I realised that the background colour had to be changed for better readability. I changed it to a lighter hue and that was an improvement.
+* During testing, I got the feedback that some of my font sizes were too small. I increased the font size in a lot of places, like the header, footer but also main content.
+* During testing I changed the colour from orange to black for the titles in my main content, this made it a lot more readable.
 
 ***
 
