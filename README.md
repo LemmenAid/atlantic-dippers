@@ -24,7 +24,7 @@ To unite cold water dippers in the area of Renvyle, Connemara. Cold water dippin
 ## Index – Table of Contents
 
 * [User Experience (UX)](#user-experience) 
-* [Designs](#designs)
+* [Design](#design)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
@@ -185,7 +185,7 @@ Links to Pexels images:
 * Icons from [Font Awesome](https://fontawesome.com/)
 * Favicon [Favicon](https://favicon.io)
 * Wireframes [Balsamiq wireframe](https://balsamiq.com/)
-* Google maps embed from Google inc. [Google Maps]()https://www.google.com/maps)
+* Google maps embed from Google inc. [Google Maps](https://www.google.com/maps)
 * Images from [Pexels](https://www.pexels.com/)
 * Colour palette generator [Coolors](https://coolors.co/)
 
