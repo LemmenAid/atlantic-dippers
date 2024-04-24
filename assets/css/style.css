@@ -283,6 +283,7 @@ main {
     position: absolute;
     width: 90%;
     height: 100%;
+    border: solid 1.5px #212121;
 }
 
 /* Signup Page */
@@ -617,6 +618,7 @@ main {
         position: absolute;
         width: 70%;
         height: 80%;
+        border: solid 1.5px #212121;
     }
 
     /* Signup Page (768px and up) */
