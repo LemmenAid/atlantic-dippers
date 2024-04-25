@@ -237,9 +237,11 @@ Two value errors were returned:<br>
 ![alt text](README-files/css-errors.png)
 
 After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
-There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.
-![alt text](README-files/css-warnings.png)
 ![alt text](README-files/css-pass.png)
+
+There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.<br>
+![alt text](README-files/css-warnings.png)
+
 
 ### Lighthouse
 
