@@ -381,7 +381,7 @@ main {
     color: currentColor;
     letter-spacing: 1.5px;
     margin-top: 1px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .contact-section a:hover {
@@ -666,7 +666,7 @@ main {
     .contact-section {
         flex: 1;
         margin-left: 10px;
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding-left: 5px;
         align-items: start;
     }
@@ -676,7 +676,7 @@ main {
         color: currentColor;
         letter-spacing: 1.5px;
         margin-top: 1px;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .contact-section a:hover {
