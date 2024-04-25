@@ -369,6 +369,8 @@ To get started I initially took a lot of the code from the “Love Running” wa
 * [CSS Tricks](https://css-tricks.com)
 * [Emmet](https://docs.emmet.io/cheat-sheet/)
 * [W3Schools](https://www.w3schools.com/)
+* [Toptal](https://www.toptal.com/front-end/how-to-build-css-only-smart-layouts-with-flexbox)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 #### Templates I have used for inspiration and creating my readme-file:
 
