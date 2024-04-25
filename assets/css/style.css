@@ -531,7 +531,6 @@ main {
         display: flex;
         /* Line up the children */
         flex-direction: row;
-
     }
 
     .about-content {
@@ -740,46 +739,3 @@ main {
     }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #212121;
-    }
-
-    /* About us page (992px and up) */
-    #about-page {
-        display: flex;
-        height: 100%;
-    }
-
-    .about-content {
-        flex: 1;
-        padding-top: 140px;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 40px;
-    }
-
-    .about-content h1 {
-        font-size: 22px;
-        padding-bottom: 30px;
-        letter-spacing: 1.3px;
-        text-transform: uppercase;
-    }
-
-    .about-content p {
-        font-size: 14px;
-        letter-spacing: 1.2px;
-        line-height: 25px;
-        padding-bottom: 30px;
-    }
-
-    .about-image {
-        flex: 1;
-        background-image: url('../images/seaweed\ float\ for\ a.d.jpg');
-        background-size: cover;
-        background-position: center;
-        background-color: #83d5c8;
-        padding-right: 200px;
-    }
-}
