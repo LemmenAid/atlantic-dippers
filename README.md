@@ -1,6 +1,6 @@
 # ATLANTIC DIPPERS
 
-![Main Mockup](assets/README-files/mockup-main.png)
+![Main Mockup](README-files/mockup-main.png)
 
 [View Live Website here.](https://lemmenaid.github.io/atlantic-dippers/)
 
@@ -52,7 +52,7 @@ To unite cold water dippers in the area of Renvyle, Connemara. Cold water dippin
 
 ### Colour Scheme
 
-![alt text](assets/README-files/colour-palette.png)
+![alt text](README-files/colour-palette.png)
 
 * The colour scheme is inspired by the water colour of the sea in Connemara. The Cyan colour is used in different shades for the main background, header and footer. The light orange is added for it’s complementairy quality for buttons and titles. The darker orange is used for the hover css effect.
 * The background colour of the site is kept in a lighter shade of Cyan than the header and footer, for better readability. For good Accessibility the text colour is kept dark. 
@@ -66,7 +66,7 @@ I imported the following code into the top of my style.css
 
     @import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-![alt text](assets/README-files/noto-sans.png)<br>
+![alt text](README-files/noto-sans.png)<br>
 
 ### Call to Action
 
@@ -95,19 +95,19 @@ Links to Pexels images:
 * Using padding and margin to make sure that the content is spaced out and easy to read.
 
 #### Home Page
-![alt text](assets/README-files/wireframe-main.png)<br>
+![alt text](README-files/wireframe-main.png)<br>
 
 #### About Us Page
-![alt text](assets/README-files/wireframe-about.png)<br>
+![alt text](README-files/wireframe-about.png)<br>
 
 #### Meetup Page
-![alt text](assets/README-files/wireframe-meetup.png)<br>
+![alt text](README-files/wireframe-meetup.png)<br>
 
 #### Signup Page
-![alt text](assets/README-files/wireframe-signup.png)<br>
+![alt text](README-files/wireframe-signup.png)<br>
 
 #### Mobile View
-![alt text](assets/README-files/mb-all-wireframe.png)<br>
+![alt text](README-files/mb-all-wireframe.png)<br>
 
 ***
 
@@ -120,8 +120,11 @@ Links to Pexels images:
 * Featured on all three pages, the full responsive navigation bar includes links to the Logo/landing page, about us, meetup times and Sign Up page and is identical in each page to allow for easy navigation.
 * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](assets/README-files/navbar.png)
-![Nav Bar dropdown menu](assets/README-files/navbar-drop.png)
+Navigation bar:<br>
+![Nav Bar](README-files/navbar.png)
+
+Dropdown navigation menu:<br>
+![Nav Bar dropdown menu](README-files/navbar-drop.png)
 
 #### The Footer
 
@@ -129,7 +132,7 @@ Links to Pexels images:
   * The footer section includes links to the relevant social media sites for Atlantic Dippers. The links will open to a new tab to allow easy navigation for the user. 
 
 
-![Footer](assets/README-files/footer.png)
+![Footer](README-files/footer.png)
 
 
 ### Features by page
@@ -140,7 +143,7 @@ Links to Pexels images:
 * This page includes a call to action button that leads to the “About Us” which allows users to easily find more information about the club. 
 * The landing page also has three buttons to external links that are useful for members of the club. They are on the landing page so frequent users are just one click away from this information, like the local tides, local weather and national swimming events.
 
-![Landing Page](assets/README-files/landing-page.png)
+![Landing Page](README-files/landing-page.png)
 
 #### About Page
 
@@ -148,21 +151,21 @@ Links to Pexels images:
 * This page also includes some information about the benefits of cold water dipping and swimming.
 * A call to action button is added to the bottom of the page which leads visitors to the Signup page.
 
-![About Us](assets/README-files/about.png)
+![About Us](README-files/about.png)
 
 #### Meetup Times Page
 
 * This page informs the user about when the meetups will happen and where they will be located.
 * Included on this page is a google map that was embedded via Google Maps with the exact location where the Atlantic Dippers meet up.
 
-![Meetup Times](assets/README-files/meetup.png)
+![Meetup Times](README-files/meetup.png)
 
 
 #### Sign Up Page
 
 * This page will allow the user to get signed up to the Atlantic Dippers to start their dipping journey with their local community. The user will be asked what level of previous experience they have with open water swimming. The user will be asked to submit their full name and email address. 
 
-![Sign Up](assets/README-files/signup.png)
+![Sign Up](README-files/signup.png)
 
 
 ### Future Implementations
@@ -222,21 +225,21 @@ The website has been tested by myself and several of my friends for accessibilit
 The [W3C](https://validator.w3.org/) Markup Validator was used to validate every page of the project to check that there were no syntax errors made in the HTML code.
 
 There was one error returned about an inline style attribute:
-![alt text](assets/README-files/html-error.png)
+![alt text](README-files/html-error.png)
 
 I removed the inline style attribute and solved it with CSS. After that no errors were returned for any of the pages.
-![alt text](assets/README-files/html-pass.png)
+![alt text](README-files/html-pass.png)
 
 #### CSS
 The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project.
 
 Two value errors were returned:<br>
-![alt text](assets/README-files/css-errors.png)
+![alt text](README-files/css-errors.png)
 
 After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
 There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.
-![alt text](assets/README-files/css-warnings.png)
-![alt text](assets/README-files/css-pass.png)
+![alt text](README-files/css-warnings.png)
+![alt text](README-files/css-pass.png)
 
 ### Lighthouse
 
@@ -244,19 +247,19 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 
 #### Landing Page
 
-![alt text](assets/README-files/lh-landing.png)
+![alt text](README-files/lh-landing.png)
 
 #### About Us Page
 
-![alt text](assets/README-files/lh-about.png)
+![alt text](README-files/lh-about.png)
 
 #### Meetup Page
 
-![alt text](assets/README-files/lh-meetup.png)
+![alt text](README-files/lh-meetup.png)
 
 #### Signup Page
 
-![alt text](assets/README-files/lh-signup.png)
+![alt text](README-files/lh-signup.png)
 
 
 ***
