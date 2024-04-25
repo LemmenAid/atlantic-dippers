@@ -240,7 +240,7 @@ main {
     order: 1;
 }
 
-.meetup-content h1 {
+.meetup-content h2 {
     color: #212121;
     font-size: 20px;
     padding-top: 10px;
@@ -583,9 +583,9 @@ main {
         margin-right: 30px;
     }
 
-    .meetup-content h1 {
+    .meetup-content h2 {
         font-size: 22px;
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 10px;
         letter-spacing: 1.3px;
         text-transform: uppercase;
