@@ -110,7 +110,7 @@ main {
 #hero {
     height: 700px;
     width: 100%;
-    background: url("../images/pexels-matthew-9500557_crop.jpeg") no-repeat center center/cover;
+    background: url("../images/diving-down-home.jpg") no-repeat center center/cover;
     background-color: #83d5c8;
 }
 
@@ -276,7 +276,7 @@ main {
 
 /* Signup Page */
 #signup-page {
-    background-image: url("../images/pexels-flo-maderebner-1249545.jpg");
+    background-image: url("../images/swimmers-signup.jpg");
     background-color: #83d5c8;
     background-size: cover;
     background-position: 75%;
@@ -538,7 +538,7 @@ main {
     .about-image {
         order: 2;
         flex: 1;
-        background-image: url('../images/seaweed\ float\ for\ a.d.jpg');
+        background-image: url('../images/floating-seaweed-about.jpg');
         background-size: cover;
         background-position: center;
         background-color: #83d5c8;
@@ -580,7 +580,7 @@ main {
     .meetup-image {
         order: 2;
         flex: 1;
-        background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
+        background-image: url('../images/two-divers-meetup.jpg');
         background-color: #83d5c8;
         background-size: cover;
         background-position: center;
