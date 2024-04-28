@@ -213,23 +213,12 @@ main {
     padding-bottom: 30px;
 }
 
-/* comment this out, because no image on mobile screens:
-.about-image {
-    background-image: url('../images/seaweed\ float\ for\ a.d.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-color: #68b9ac;
-    order: 1;
-}
-*/
-
 /* Meetup Page */
 #meetup-page {
     display: flex;
     flex: 1;
     /* stack the children */
     flex-direction: column;
-
 }
 
 .meetup-content {
@@ -260,16 +249,6 @@ main {
     font-style: italic;
     margin-top: 40px;
 }
-
-/* comment this out, because no image on mobile screens:
-.meetup-image {
-    background-image: url('../images/pexels-rachel-claire-6761979_edit1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: #68b9ac;
-    order: 2;
-}
-*/
 
 .google-map {
     padding-bottom: 50%;
@@ -478,7 +457,6 @@ main {
     #logo:hover {
         color: #ff8833;
     }
-
 
     /* Main content(768px and up) */
 
