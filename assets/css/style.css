@@ -8,9 +8,16 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: #83d5c8;
+}
+
 /* General styles */
 body {
     min-height: 100vh;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -20,6 +27,7 @@ body {
 
 /* Header */
 header {
+    max-width: 1800px;
     background-color: rgb(109, 209, 193, 0.7);
     padding: 0 1rem;
     position: fixed;
