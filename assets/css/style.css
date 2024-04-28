@@ -15,7 +15,7 @@ html {
 /* General styles */
 body {
     min-height: 100vh;
-    max-width: 1800px;
+    max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -27,16 +27,16 @@ body {
 
 /* Header */
 header {
-    max-width: 1800px;
-    background-color: rgb(109, 209, 193, 0.7);
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    background-color: rgb(109, 209, 193, 0.7);
 }
 
 header a {
