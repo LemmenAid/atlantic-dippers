@@ -206,7 +206,7 @@ Dropdown navigation menu:<br>
 
 The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
 
-* This site has been tested on an iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Samsung Galaxy S20 / MacBook Air / MacBook Pro / HP laptop.
+* This site has been tested on serveral different devices, under which an iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / MacBook Air / MacBook Pro / HP laptop.
 * The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
 * All links/buttons have been tested for functionality.
 * Hover over effects have been tested.
