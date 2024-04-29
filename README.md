@@ -28,7 +28,7 @@ To unite cold water dippers in the area of Renvyle, Connemara. Cold water dippin
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
-* [Known Bugs](#known-bugs)
+* [Solved Bugs](#solved-bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -278,11 +278,12 @@ After validator testing I have used Chrome’s Lighthouse developer tool to chec
 
 ***
 
-## Known Bugs
+## Solved Bugs
 
 * During testing for Accessibility I realised that the background colour had to be changed for better readability. I changed it to a lighter hue and that was an improvement.
 * During testing, I got the feedback that some of my font sizes were too small. I increased the font size in a lot of places, like the header, footer but also main content.
 * During testing I changed the colour from orange to black for the titles in my main content, this made it a lot more readable.
+* During testing it was discovered that in the Signup form the field for the experience question was an input field and therefore only took a single line answer. I changed the field from an input field to a textarea field to solve this.
 
 ***
 
