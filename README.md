@@ -217,12 +217,11 @@ The website has been tested by myself and several of my friends for accessibilit
 | Internal Links | Click on internal links | Internal links redirect to where they should. | PASS |
 | External Links | Click on external links | External links go where they should and open in separate tab. | PASS |
 | Social Media Icons | Click Icons | When clicked the user will be redirected to the appropriate social media pages in a separate tab. | PASS |
-| Google Map | CLick on Map | Map should be interactive when clicked on. | PASS |
-| Signup Form | Submit form with all fields filled out | Form input goes to form dump and form dumps shows data from all form fields. | PASS |
+| Google Map | Click on Map | Map should be interactive when clicked on. | PASS |
+| Form Dump | Submit form with all fields filled out | Form input goes to form dump and form dumps shows data from all form fields. | PASS |
 | Signup form | Click signup button while leaving form unfillled | Required fields are validated accordingly. | PASS |
 | Signup form email | Click signup button while not including the @ in the email field | Email field is validated for format. | PASS |
- - - -
- 
+
 
 ### Browser Compatibility
 * The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
