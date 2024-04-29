@@ -310,7 +310,9 @@ main {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    padding: 0 5px;
+    padding: 5px;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 .text-input-experience {
