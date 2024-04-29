@@ -90,9 +90,8 @@ Links to Pexels images:
 
 ### Layout / Wireframes
 
-* I made the basic design layout of the website designing wireframes with Balsamiq. 
+* I made the basic design layout of the website using wireframes with Balsamiq. 
 * I have used responsive design for creating this website. For instance, when a page goes from mobile to larger screens some of the content goes from stacked to lined up.
-* Using padding and margin to make sure that the content is spaced out and easy to read.
 
 #### Home Page
 ![alt text](README-files/wireframe-main.png)<br>
@@ -206,9 +205,9 @@ Dropdown navigation menu:<br>
 
 The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
 
-* This site has been tested on serveral different devices, under which an iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
+* The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
 * The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
-* All links/buttons have been tested for functionality.
+* All links / buttons have been tested for functionality.
 * Hover over effects have been tested.
 * Signup Form has been tested for functionality and feedback.
 * Social media Icons have been tested.
