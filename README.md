@@ -211,13 +211,15 @@ The website has been tested by myself and several of my friends for accessibilit
 ### Functionality
 
 | Feature | Testing Performed | Expected Outcome | Pass/Fail |
-| --- | --- | --- | --- |
 |  |  |  |  |
 | Atlantic Dipper Logo and Title | Clicked Logo and Title | When clicked the user will be redirected to the home page. | PASS |
-|  |  |  |  |  
-| Social Icons | CLicked Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Pass |
-| --- | --- | --- | --- |
-
+| Internal Links | Click on internal links | Internal links redirect to where they should | PASS |
+| External Links | Click on external links | External links go where they should and open in a separate tab | PASS |
+| Social Icons | Clicked Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | PASS |
+| Google Map | CLicked on Map | Map should be interactive when clicked on | PASS |
+| Signup Form | Submit form with all fields filled out | Form input goes to form dump and form dumps shows data from all form fields | PASS |
+| Signup form | Clicked signup button while leaving form unfillled | Required fields are validated accordingly | PASS |
+| Signup form email | Clicked signup button while not including the @ in the email field | Email field is validated for format | PASS |
 
 ### Browser Compatibility
 * The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
