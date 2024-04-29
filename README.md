@@ -203,11 +203,6 @@ Dropdown navigation menu:<br>
 
 The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
 
-* All links / buttons have been tested for functionality.
-* Hover over effects have been tested.
-* Signup Form has been tested for functionality and feedback.
-* Social media Icons have been tested.
-
 ### Functionality
 
 | Feature | Testing Performed | Expected Outcome | Pass/Fail |
