@@ -201,22 +201,31 @@ Dropdown navigation menu:<br>
 
 ## Testing
 
-### Browser Compatibility
-
 The website has been tested by myself and several of my friends for accessibility, functionality, responsiveness, performance and visual appeal.
 
-* The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
-* The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
 * All links / buttons have been tested for functionality.
 * Hover over effects have been tested.
 * Signup Form has been tested for functionality and feedback.
 * Social media Icons have been tested.
 
-### Responsivness
+### Functionality
 
+| Feature | Testing Performed | Expected Outcome | Pass/Fail |
+| --- | --- | --- | --- |
+|  |  |  |  |
+| Atlantic Dipper Logo and Title | Clicked Logo and Title | When clicked the user will be redirected to the home page. | PASS |
+|  |  |  |  |  
+| Social Icons | CLicked Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Pass |
+| --- | --- | --- | --- |
+
+
+### Browser Compatibility
+* The site has been tested on serveral different devices, under which; iPhone SE / iPhone 12 / iPhone 14 / Samsung Galaxy S9 / Xiaomi Mi 10 / MacBook Air / MacBook Pro / HP laptop.
+* The website has been tested in the following browsers: Chrome / Safari / Firefox / Microsoft Edge.
+
+### Responsivness
 * The website has been tested on different screen sizes and it's responsive on all screens from mobile phones to desktops.
 * Chrome DEV Tools have been used to check the responsivness.
-
 
 ### Validator Testing
 
