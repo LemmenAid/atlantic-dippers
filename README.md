@@ -229,24 +229,29 @@ The website has been tested by myself and several of my friends for accessibilit
 ### Validator Testing
 
 #### HTML
-The [W3C](https://validator.w3.org/) Markup Validator was used to validate every page of the project to check that there were no syntax errors made in the HTML code.
+* The [W3C](https://validator.w3.org/) Markup Validator was used to validate every page of the project to check that there were no syntax errors made in the HTML code.
 
-There was one error returned about an inline style attribute:
+* There was one error returned about an inline style attribute:
+
 ![alt text](README-files/html-error.png)
 
-I removed the inline style attribute and solved it with CSS. After that no errors were returned for any of the pages.
+* I removed the inline style attribute and solved it with CSS. After that no errors were returned for any of the pages.
+
 ![alt text](README-files/html-pass.png)
 
 #### CSS
-The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project.
+* The [Jigsaw](https://jigsaw.w3.org/css-validator/validator) CSS Validator Services was used to validate the CSS code to make sure that no syntax errors were made in this project.
 
-Two value errors were returned:<br>
+* Two value errors were returned:<br>
+
 ![alt text](README-files/css-errors.png)
 
-After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
+* After fixing that by adding a pixel value to the width and height, no errors were returned.<br>
+
 ![alt text](README-files/css-pass.png)
 
-There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.<br>
+* There were still a few warnings displayed about using the same colour for a background and border, but I have done that intentional, so I am happy with the outcome.<br>
+
 ![alt text](README-files/css-warnings.png)
 
 
