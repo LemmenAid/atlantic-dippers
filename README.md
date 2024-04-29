@@ -60,9 +60,9 @@ To unite cold water dippers in the area of Renvyle, Connemara. Cold water dippin
 
 ### Typography
 
-* The typography used throughout the site is Noto Sans, imported from google fonts. Noto Sans was chosen because of it’s readability in various sizes and clean design. As a fallback font sans serif is used. I have increased the letter spacing to increase readability in the paragraphs. I have used slightly more letter spacing for headings to make them stand out more. I have used different font weights for the headings to make them stand out more as well.
+* The typography used throughout the site is Noto Sans, imported from google fonts. Noto Sans was chosen because of it’s readability in various sizes and clean design. As a fallback font sans serif is used. The letter spacing has been increased to improve readability in the paragraphs. For the heading even more letter spacing has been applied to make them stand out, as well as a heavier font weight. 
 
-I imported the following code into the top of my style.css
+The following code has been imported into the top of the style.css
 
     @import url(‘https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -77,7 +77,7 @@ I imported the following code into the top of my style.css
 
 ### Imagery
 
-Because this website is concept based, I had no real images of this Swimclub I could use. Therefor I tried to find images that match the colour scheme and theme of the website. I used Pexels as a free images source.
+Because this website is concept based, there were no real images of this Swimclub that could be used. Therefor I tried to find images that match the colour scheme and theme of the website. I used Pexels as a free images source.
 
 Links to Pexels images:
 
@@ -90,8 +90,8 @@ Links to Pexels images:
 
 ### Layout / Wireframes
 
-* I made the basic design layout of the website using wireframes with Balsamiq. 
-* I have used responsive design for creating this website. For instance, when a page goes from mobile to larger screens some of the content goes from stacked to lined up.
+* The basic design layout of the website has been made using wireframes with Balsamiq. 
+* Responsive design has been used for creating this website. For instance, when a page goes from mobile to larger screens some of the content goes from stacked to lined up.
 
 #### Home Page
 ![alt text](README-files/wireframe-main.png)<br>
